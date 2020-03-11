@@ -1,6 +1,6 @@
 import java.time.LocalDateTime;
 
-public final class Personnel {
+public final class Personnel implements Composite {
     private final String Nom;
     private final String Prenom;
     private final LocalDateTime Naissance;
@@ -14,6 +14,11 @@ public final class Personnel {
         //Optional
         Naissance = builder.Naissance;
         Telephone = builder.Telephone;
+    }
+
+    @Override
+    public void print() {
+        System.out.println("Nom " + this.Nom);
     }
 
     public static class Builder {
