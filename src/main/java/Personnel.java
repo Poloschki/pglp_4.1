@@ -51,4 +51,11 @@ public final class Personnel implements Composite {
         }
 
     }
+
+    public static void main(String[] args) {
+        Personnel p1 = new Personnel
+                .Builder("P1", "P1")
+                .build();
+
+    }
 }
