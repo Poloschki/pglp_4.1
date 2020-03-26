@@ -1,48 +1,48 @@
 import java.time.LocalDateTime;
 
 public final class Personnel implements Composite {
-    private final String Nom;
-    private final String Prenom;
-    private final LocalDateTime Naissance;
-    private final String Telephone;
+    private final String nom;
+    private final String prenom;
+    private final LocalDateTime naissance;
+    private final String telephone;
 
     private Personnel(Builder builder) {
         //Required
-        Nom = builder.Nom;
-        Prenom = builder.Prenom;
+        nom = builder.nom;
+        prenom = builder.prenom;
 
         //Optional
-        Naissance = builder.Naissance;
-        Telephone = builder.Telephone;
+        naissance = builder.naissance;
+        telephone = builder.telephone;
     }
 
     @Override
     public void print() {
-        System.out.println("Nom " + this.Nom);
+        System.out.println("Nom " + this.nom);
     }
 
     public static class Builder {
         //Required
-        private final String Nom;
-        private final String Prenom;
+        private final String nom;
+        private final String prenom;
 
         //Optional
         private LocalDateTime currentTime = LocalDateTime.now();
-        private LocalDateTime Naissance = currentTime.withDayOfMonth(1).withYear(1990).withMonth(1);
-        private String Telephone = "+33111111111";
+        private LocalDateTime naissance = currentTime.withDayOfMonth(1).withYear(1990).withMonth(1);
+        private String telephone = "+33111111111";
 
-        public Builder(String Nom, String Prenom) {
-            this.Nom = Nom;
-            this.Prenom = Prenom;
+        public Builder(String nom, String prenom) {
+            this.nom = nom;
+            this.prenom = prenom;
         }
 
-        public Builder Naissance(LocalDateTime naissance) {
-            Naissance = naissance;
+        public Builder naissance(LocalDateTime naissance) {
+            this.naissance = naissance;
             return this;
         }
 
-        public Builder Telephone(String phone) {
-            this.Telephone = phone;
+        public Builder telephone(String phone) {
+            this.telephone = phone;
             return this;
         }
 
