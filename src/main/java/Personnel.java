@@ -1,15 +1,19 @@
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 public final class Personnel implements Composite {
     private final String nom;
     private final String prenom;
+    private final String fonction;
     private final LocalDateTime naissance;
-    private final String telephone;
+    private final List<String> telephone;
 
     private Personnel(Builder builder) {
         //Required
         nom = builder.nom;
         prenom = builder.prenom;
+        fonction = builder.fonction;
 
         //Optional
         naissance = builder.naissance;
@@ -25,15 +29,17 @@ public final class Personnel implements Composite {
         //Required
         private final String nom;
         private final String prenom;
+        private final String fonction;
 
         //Optional
         private LocalDateTime currentTime = LocalDateTime.now();
         private LocalDateTime naissance = currentTime.withDayOfMonth(1).withYear(1990).withMonth(1);
-        private String telephone = "+33111111111";
+        private List<String> telephone = new ArrayList<>();
 
-        public Builder(String nom, String prenom) {
+        public Builder(String nom, String prenom, String fonction) {
             this.nom = nom;
             this.prenom = prenom;
+            this.fonction = fonction;
         }
 
         public Builder naissance(LocalDateTime naissance) {
@@ -42,7 +48,7 @@ public final class Personnel implements Composite {
         }
 
         public Builder telephone(String phone) {
-            this.telephone = phone;
+            this.telephone.add(phone);
             return this;
         }
 
