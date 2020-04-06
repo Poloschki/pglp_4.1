@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9725bd55-f605-43a6-a29a-b7f24c0c68ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/CompositePersonnelTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YyZdNyqAHd0DvYZmGtGKEIDTXh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ProgrammePrincipal">
+    <configuration name="Personnel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Personnel" />
+      <module name="pglp_4.1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgrammePrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProgrammePrincipal" />
+      <module name="pglp_4.1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProgrammePrincipal" />
+        <item itemvalue="Application.Personnel" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9725bd55-f605-43a6-a29a-b7f24c0c68ae" name="Default Changelist" comment="" />
+      <created>1583916880892</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583916880892</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Création de la class immuable Personnel">
+      <created>1583920911274</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583920911274</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Création de l'interface  CompositePersonnel">
+      <created>1583925496014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583925496014</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Création de la classe CompositePersonnel et implémentation de la list de add et de remove &#10;Modification de l'interface pour Composite">
+      <created>1583927090718</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583927090718</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Création du main dans Personnel">
+      <created>1583927485850</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583927485850</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Création de l'énumération ProgrammePrincipal permettant le singleton">
+      <created>1585237501601</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585237501601</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Refactoring">
+      <created>1585238052332</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585238052332</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Transformation Telephone en liste">
+      <created>1585241913785</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585241913785</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Création de la class immuable Personnel" />
+    <MESSAGE value="Création de l'interface  CompositePersonnel" />
+    <MESSAGE value="Création de la classe CompositePersonnel et implémentation de la list de add et de remove &#10;Modification de l'interface pour Composite" />
+    <MESSAGE value="Création du main dans Personnel" />
+    <MESSAGE value="Création de l'énumération ProgrammePrincipal permettant le singleton" />
+    <MESSAGE value="Refactoring" />
+    <MESSAGE value="Transformation Telephone en liste" />
+    <option name="LAST_COMMIT_MESSAGE" value="Transformation Telephone en liste" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="215" width="800" height="684" key="#Project_Structure" timestamp="1585244307679">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="215" width="800" height="684" key="#Project_Structure/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1585244307679" />
+    <state x="1248" y="266" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1583926651019">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1248" y="266" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1583926651019" />
+    <state x="1030" y="97" width="826" height="854" key="CommitChangelistDialog2" timestamp="1585241913740">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1030" y="97" width="826" height="854" key="CommitChangelistDialog2/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1585241913740" />
+    <state x="1030" y="97" width="810" height="919" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1583927485804" />
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1585318483283">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1585318483283" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1586104364435">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1585249579011" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1586104364435" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1586104364435">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1585249579010" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1586104364435" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1586104364434">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1585249579010" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1586104364434" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1586104364435">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1585249579010" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1586104364435" />
+    <state x="1035" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1585241918328">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1035" y="289" key="Vcs.Push.Dialog.v2/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1585241918328" />
+    <state x="1035" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1583927488539" />
+    <state x="616" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1586179018007">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="616" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1586179018007" />
+    <state x="700" y="270" width="509" height="573" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585244368750">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="700" y="270" width="509" height="573" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.27.1920.1053/0.1080.1920.1080@0.27.1920.1053" timestamp="1585244368750" />
+    <state x="1103" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1583919991337">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1103" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1583919991337" />
+  </component>
+</project>
